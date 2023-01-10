@@ -1,75 +1,15 @@
 ---
-execute:
-  label: Execute
-  description: |
-    The LOLBAS can achieve abritrary code execution.
-
 download:
   label: Download
   description: |
-    The LOLBAS can download files.
+    The LOLAPP can download files.
     
 upload:
-  label: Upload
+  label: Data Exfiltration
   description: |
-    The LOLBAS can upload files.
+    The LOLAPP can exfiltrate files.
     
-encode:
-  label: Encode
+phishing:
+  label: Phishing
   description: |
-    The LOLBAS can encode files.
-    
-decode:
-  label: Decode
-  description: |
-    The LOLBAS can decode files.
-    
-ads:
-  label: Alternate data streams
-  description: |
-    The LOLBAS can write or read alternate data streams.
-
-copy:
-  label: Copy
-  description: |
-    The LOLBAS can copy file.
-
-credentials:
-  label: Credentials
-  description: |
-    The LOLBAS can view credentials file.
-    
-compile:
-  label: Compile
-  description: |
-    The LOLBAS can compile code.
-    
-awl bypass:
-  label: AWL bypass
-  description: |
-    The LOLBAS can bypass application allowlisting solutions.
-    
-uac bypass:
-  label: UAC bypass
-  description: |
-    The LOLBAS can bypass User Access Control in Windows.
-    
-reconnaissance:
-  label: Reconnaissance
-  description: |
-    The LOLBAS can be used to gather interesting information.
-    
-dump:
-  label: Dump
-  description: |
-    The LOLBAS can be used to dump the memory contents of a process.
-
-tamper:
-  label: Tamper
-  description: |
-    The LOLBAS can be used to tamper with files, processes, etc.
-
-conceal:
-  label: Conceal
-  description: |
-    The LOLBAS can be used to conceal malicious activity.
+    The LOLAPP can be used for phishing.
