@@ -1,19 +1,10 @@
 ---
 layout: page
-title: LOLBAS
+title: LOLAPPS
 ---
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133649096-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-133649096-1');
-</script>
-
 <div class="header-box">
-<a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/README.md"><img src="{{ '/assets/logo.png' | relative_url }}" height="150" style="margin-right: 10px;"></a>
+<a href="https://github.com/LOLAPPS-Project/LOLAPPS/blob/main/README.md"><img src="{{ '/assets/logo.png' | relative_url }}" height="150" style="margin-right: 10px;"></a>
 <div>
 <h2 style="margin-top: 0">Living Off The Land Binaries, Scripts and Libraries</h2>
 
@@ -21,8 +12,8 @@ title: LOLBAS
 
 For more info on the project, click on the logo.
 <br><br>
-If you want to contribute, check out our
-<a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/CONTRIBUTING.md">contribution guide</a>.
+For contributions, use the
+<a href="https://github.com/LOLAPPS-Project/LOLAPPS/blob/main/Contributing.md">contribution guide</a>.
 Our <a href="https://github.com/LOLBAS-Project/LOLBAS#criteria">criteria list</a> sets out what we define as a LOLBin/Script/Lib. More information on programmatically accesssing this project can be found on the <a href="{{'/api' | relative_url }}">API page</a>.
 <br>
 <br>
