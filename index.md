@@ -6,7 +6,7 @@ title: LOLAPPS
 <div class="header-box">
 <a href="https://github.com/LOLAPPS-Project/LOLAPPS/blob/main/README.md"><img src="{{ '/assets/logo.png' | relative_url }}" height="150" style="margin-right: 10px;"></a>
 <div>
-<h2 style="margin-top: 0">Living Off The Land Binaries, Scripts and Libraries</h2>
+<h2 style="margin-top: 0">Living Off The Land Applications, thinking "outside" of the OS</h2>
 
 
 
