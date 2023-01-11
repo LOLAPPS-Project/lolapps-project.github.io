@@ -21,7 +21,7 @@ For contributions, use the
 <br>
 If you are looking for UNIX binaries, please visit <a href="https://gtfobins.github.io/">gtfobins.github.io</a>.
 <br>
-For Windows binaries, please visit <a href="https://lolbas-project.github.io/">gtfobins.github.io</a>.  
+For Windows binaries, please visit <a href="https://lolbas-project.github.io/">lolbas-project.github.io</a>.  
 </div>
 </div>
 
