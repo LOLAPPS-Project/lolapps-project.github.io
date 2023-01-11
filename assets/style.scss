@@ -33,8 +33,8 @@ $layout-break: "(min-width: #{$column-width + $grace-space})";
         flex-direction: column;
     }
 
-    #bin-table th:nth-child(3), #bin-table td:nth-child(3),
-    #bin-table th:nth-child(4), #bin-table td:nth-child(4){
+    #app-table th:nth-child(3), #app-table td:nth-child(3),
+    #app-table th:nth-child(4), #app-table td:nth-child(4){
         display:none;
     }
 
@@ -97,16 +97,16 @@ h2, h3, h4, h5, h5 {
     }
 }
 
-// binary list and search
+// application list and search
 
-#bin-search {
+#app-search {
     margin-top: 1em;
     padding: 0.5em;
     width: 100%;
     box-sizing: border-box;
 }
 
-#bin-table {
+#app-table {
     width: 100%;
 
     th, td {
@@ -159,7 +159,7 @@ h2, h3, h4, h5, h5 {
     font-size: x-small;
 }
 
-// bin examples
+// app examples
 
 .examples {
     display: table;
@@ -195,7 +195,7 @@ h2, h3, h4, h5, h5 {
     margin-bottom: $margin;
 }
 
-.bin-name {
+.app-name {
     font-family: Consolas, monospace;
     font-size: 1.2rem;
 }
