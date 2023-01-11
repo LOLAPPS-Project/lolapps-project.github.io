@@ -1,3 +1,1 @@
-LOLBAS is a curated list of Living Off The Land Binaries and Scripts.
-
-Please refer to `NOTICE.md` for license information.
+LOLAPPS is a compendium of applications that can be used to carry out day-to-day exploitation.
