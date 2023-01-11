@@ -43,21 +43,21 @@ h2:target, h3:target, h4:target, h5:target, h5:target {
 h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permalink, h5:hover .permalink {
   visibility: visible; }
 
-#bin-search {
+#app-search {
   margin-top: 50px;
   padding: 0.5em;
   width: 100%;
   box-sizing: border-box; }
 
-#bin-table {
+#app-table {
   width: 100%; }
-  #bin-table th, #bin-table td {
+  #app-table th, #app-table td {
     padding: 0.2em 1em; }
-  #bin-table th {
+  #app-table th {
     text-align: left; }
-  #bin-table tbody tr:hover {
+  #app-table tbody tr:hover {
     background: #fff4f4; }
-  #bin-table #search-message {
+  #app-table #search-message {
     display: none;
     text-align: center;
     padding: 1em; }
@@ -104,7 +104,7 @@ h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permali
   margin-left: 20px;
   margin-bottom: 20px; }
 
-.bin-name {
+.app-name {
   font-family: monospace;
   font-size: 1.2rem; }
 
