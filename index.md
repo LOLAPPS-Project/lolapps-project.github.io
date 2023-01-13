@@ -13,7 +13,7 @@ title: LOLAPPS
 Click on the logo to visit the Github repo. 
 <br><br>
 This project was made because exploitation isn't limited to binaries using command line techniques. Both built-in and third-party applications have been used & abused for adversarial gain since
-the dawn of time, and knowing these methods can help when all else fail. [John Jackson](https://twitter.com/johnjhacking) is the creator of the project - his love for application abuse has no bounds. 
+the dawn of time, and knowing these methods can help when all else fail. 
 <br><br>
 For contributions, use the
 <a href="https://github.com/LOLAPPS-Project/LOLAPPS/blob/main/Contributing.md">contribution guide</a>.
