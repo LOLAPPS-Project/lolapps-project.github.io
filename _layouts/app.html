@@ -56,16 +56,16 @@ layout: common
 {% endif %}
 <br>
 
-{% assign test = page.Commands | group_by:"Category"%}
-{% for Command in test%}
-	{% assign function_name = Command.name | downcase %}
+{% assign test = page.Steps | group_by:"Category"%}
+{% for Steps in test%}
+	{% assign function_name = Steps.name | downcase %}
 <h2 id="{{function_name}}" class ="function-name">
 	{{- site.data.functions[function_name].label -}}
 </h2>
-	{% for item in Command.items %}
+	{% for item in Steps.items %}
 		{{item.Description | escape}}
 		<br>
-		<pre><code>{{item.Command | escape_once}}</code></pre>
+		<pre><code>{{item.Steps | escape_once}}</code></pre>
 		Usecase: {{item.Usecase | escape}}
 		<br>
 		Privileges required: {{item.Privileges}}
