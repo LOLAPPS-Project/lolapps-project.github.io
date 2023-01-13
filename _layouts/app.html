@@ -41,7 +41,7 @@ layout: common
 		{{item.Description | escape}}
 		<br>
                 <pre style="overflow-x: visible; max-width: 100%;">
-		    <code style="white-space: pre-line; text-align: left;">{{item.Steps | escape_once}}</code>
+		    <code style="white-space: pre-line; display: flex; flex-wrap: wrap; align-items: flex-start;">{{item.Steps | escape_once}}</code>
 		</pre>    
 		Usecase: {{item.Usecase | escape}}
 		<br>
