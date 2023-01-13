@@ -1,5 +1,5 @@
 <ul class="function-list attack-technique-list">
-	{% assign techniques = include.app.Steps | group_by:"MitreID" %}
+	{% assign techniques = include.app.Usage | group_by:"MitreID" %}
 	{% for technique in techniques %}
     {% if technique.name != "" %}
 	<li data-attack-tid="{{ technique.name }}">{{ technique.name }}</li>
