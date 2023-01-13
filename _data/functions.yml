@@ -4,7 +4,7 @@ download:
   description: |
     The LOLAPP can download files.
     
-upload:
+data exfiltration:
   label: Data Exfiltration
   description: |
     The LOLAPP can exfiltrate files.
