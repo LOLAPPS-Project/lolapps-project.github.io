@@ -6,11 +6,14 @@ title: LOLAPPS
 <div class="header-box">
 <a href="https://github.com/LOLAPPS-Project/LOLAPPS/blob/main/README.md"><img src="{{ '/assets/logo.png' | relative_url }}" height="150" style="margin-right: 10px;"></a>
 <div>
-<h2 style="margin-top: 0">Living Off The Land Applications, thinking "outside" of the OS</h2>
+<h2 style="margin-top: 0">Living Off The Land Applications: Sowing the seeds for application exploitation ease.</h2>
 
 
 
-For more info on the project, click on the logo.
+Click on the logo to visit the Github repo. 
+<br><br>
+This project was made because exploitation isn't limited to binaries using command line techniques. Both built-in and third-party applications have been used & abused for adversarial gain since
+the dawn of time, and knowing these methods can help when all else fail. [John Jackson](https://twitter.com/johnjhacking) is the creator of the project - his love for application abuse has no bounds. 
 <br><br>
 For contributions, use the
 <a href="https://github.com/LOLAPPS-Project/LOLAPPS/blob/main/Contributing.md">contribution guide</a>.
