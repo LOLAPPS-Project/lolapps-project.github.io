@@ -40,7 +40,7 @@ layout: common
 	{% for item in Steps.items %}
 		{{item.Description | escape}}
 		<br>
-                <pre style="overflow-x: visible; max-width: 100%;">
+                <pre style="overflow-x: visible;">
 		    <code style="white-space: pre-line; display: flex; flex-wrap: wrap; align-items: flex-start; height: auto;">{{item.Steps | escape_once | trim}}</code>
 		</pre>    
 		Usecase: {{item.Usecase | escape}}
