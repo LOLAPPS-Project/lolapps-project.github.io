@@ -56,7 +56,7 @@ layout: common
 {% endif %}
 <br>
 
-{% assign test = page.Steps | group_by:"Category"%}
+{% assign test = page.Usage | group_by:"Category"%}
 {% for Steps in test%}
 	{% assign function_name = Steps.name | downcase %}
 <h2 id="{{function_name}}" class ="function-name">
