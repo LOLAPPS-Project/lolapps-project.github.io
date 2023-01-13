@@ -8,14 +8,6 @@ layout: common
 {{ page.Description | markdownify }}
 
 <script src="{{ '/assets/url_helper.js' | relative_url }}"></script>
-<br>
-<div><b>Paths:</b>
-	<ul style="list-style-type:none">
-	{% for ent in page.Full_Path %}
-	<li>{{ent.Path}}</li>
-	{% endfor %}
-	</ul>
-</div>
 {% assign resources = page.Resources %}
 {% if resources and resources.size > 0 %}
 <br>
@@ -37,23 +29,6 @@ layout: common
 </ul>
 </div>
 {% endif %}
-{% assign detections = page.Detection %}
-{% if detections and detections.size > 0 %}
-<br>
-<div>
-	<b>Detection:</b>
-	<ul>
-		{% for detection in detections %}{% for entity in detection %}
-			{% if entity[0] != 'IOC' %}
-				{% capture value %}<a href="{{ entity[1] }}" target="_new" data-shorten="true">{{ entity[1] }}</a>{% endcapture %}
-			{% else %}
-				{% assign value = entity[1] | escape %}
-			{% endif %}
-			<li>{{entity[0]}}: {{value}}</li>
-		{% endfor %}{% endfor %}
-	</ul>
-</div>
-{% endif %}
 <br>
 
 {% assign test = page.Usage | group_by:"Category"%}
@@ -69,8 +44,6 @@ layout: common
 		Usecase: {{item.Usecase | escape}}
 		<br>
 		Privileges required: {{item.Privileges}}
-		<br>
-		OS: {{item.OperatingSystem}}
 		<br>
 		MITRE ATT&CK&reg: <span data-attack-tid="{{item.MitreID}}">{{item.MitreID}}</span>
 		<br>
