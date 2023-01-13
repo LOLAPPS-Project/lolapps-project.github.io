@@ -14,11 +14,11 @@ body {
 code {
   padding: 0.15em 0.25em;
   border-radius: 0.25em;
-  color: #bf0707;
-  background: #fff4f4; }
+  color: #ff0000;
+  background: ##000000; }
 
 pre {
-  background: #fff4f4;
+  background: ##000000;
   padding: 1em;
   overflow-x: auto; }
   pre code {
