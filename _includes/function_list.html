@@ -1,5 +1,5 @@
 <ul class="function-list">
-	{% assign catergors = include.app.Commands | group_by:"Category" %}
+	{% assign catergors = include.app.Usage | group_by:"Category" %}
 	{% for cats in catergors %}
 	{% assign type = cats.name | downcase %}
 	<li><a href="{{ include.app.url | relative_url }}#{{ type }}">{{ site.data.functions[type].label }}</a></li>
