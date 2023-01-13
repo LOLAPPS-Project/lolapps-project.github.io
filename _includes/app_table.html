@@ -5,8 +5,8 @@
         <thead>
             <tr>
                 <th style="width: 45%">Application</th>
-                <th style="width: 45%">Functions</th>
-                <th style="width: 25%">ATT&CK&reg; Techniques</th>
+                <th style="width: 25%">Functions</th>
+                <th style="width: 14%">ATT&CK&reg; Techniques</th>
             </tr>
         </thead>
         <tbody>
@@ -14,7 +14,6 @@
             <tr>
                 <td><a href="{{ file.url | relative_url }}" class="app-name">{{ file.Name }}</a></td>
                 <td>{% include function_list.html app=file %}</td>
-                <td>{% include get_app_name path=file.path %}</td>
                 <td>{% include get_attack_tids.html app=file %}</td>
             </tr>
             {% endfor %}
