@@ -14,7 +14,7 @@
             <tr>
                 <td><a href="{{ file.url | relative_url }}" class="app-name">{{ file.Name }}</a></td>
                 <td>{% include function_list.html app=file %}</td>
-                <td>{% include get_type_name path=file.path %}</td>
+                <td>{% include get_app_name path=file.path %}</td>
                 <td>{% include get_attack_tids.html app=file %}</td>
             </tr>
             {% endfor %}
