@@ -2,7 +2,7 @@
 NOTE: "Please use the rendered version of this file"
 ---
 {% assign techniques = '' %}
-{% for file in site.lolbas %}
+{% for file in site.lolapps %}
     {% for command in file.Commands %}
         {% assign techniques = techniques | append:command.MitreID | append:"|" %}
     {% endfor %}

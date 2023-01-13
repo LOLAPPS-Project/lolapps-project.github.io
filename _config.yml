@@ -6,7 +6,7 @@ exclude: ['/Gemfile', '/Makefile', '/README.md']
 permalink: pretty
 
 collections:
-  lolbas:
+  lolapps:
     output: true
 
 defaults:
