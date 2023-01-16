@@ -13,3 +13,18 @@ phishing:
   label: Phishing
   description: |
     The LOLAPP can be used for phishing.
+
+malware hosting:
+  label: Malware Hosting
+  description: |
+    The LOLAPP can host malware.
+    
+c2 channel:
+  label: C2 Channel
+  description: |
+    The LOLAPP can be used as a C2 channel.
+    
+lateral movement:
+  label: Lateral Movement
+  description: |
+    The LOLAPP can be used for lateral movement.    
