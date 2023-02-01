@@ -28,3 +28,8 @@ lateral movement:
   label: Lateral Movement
   description: |
     The LOLAPP can be used for lateral movement.    
+
+persistence:
+  label: Persistence
+  description: |
+    The LOLAPP can be used for persistence. 
