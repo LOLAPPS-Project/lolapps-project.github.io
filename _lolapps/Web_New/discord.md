@@ -1,6 +1,6 @@
 ---
 Name: Discord
-Description: Discord is a VoIP and instant messaging social platform. 
+Description: Discord is a VoIP and instant messaging social platform.
 Author: 'John Jackson'
 Created: 2023-01-14
 Usage:
@@ -11,7 +11,7 @@ Usage:
     Privileges: None
     Limitations: Discord isnt always allowed on Enterprise networks and your malware is at the mercy of Discord
     MitreID: T1102
-  - Steps: Follow the instructions per additional tooling provided in references. If you use DiscordGo, you'll have to compile your agent and configure your automation, in addition to making a server, setting up a bot, and configuring the tokens, permissions, and channels. 
+  - Steps: Follow the instructions per additional tooling provided in references. If you use DiscordGo, you'll have to compile your agent and configure your automation, in addition to making a server, setting up a bot, and configuring the tokens, permissions, and channels.
     Description: Steps to setup the C2 channel
     Usecase: Implant management via non-standard C2 platform
     Category: C2 Channel
@@ -21,8 +21,7 @@ Usage:
 Resources:
   - Link: https://usa.kaspersky.com/blog/malware-in-discord/25662/
   - Link: https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/
-  - Link: https://github.com/emmaunel/DiscordGo
 Acknowledgement:
   - Person: John Jackson
     Handle: '@johnjhacking'
---- 
+---
