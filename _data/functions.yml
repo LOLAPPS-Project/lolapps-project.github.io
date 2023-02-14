@@ -37,4 +37,4 @@ persistence:
 dll hijacking:
   label: DLL Hijacking
   description: |
-    The LOLAPP can be used for persistence. 
+    The LOLAPP can be used for alternative execution. 
