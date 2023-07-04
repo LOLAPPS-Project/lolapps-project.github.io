@@ -1,3 +1,4 @@
+---
 Name: KeePass
 Description: KeePass is a free open source password manager.
 Author: 'Adam Brass and Martin Sohn Christensen'
