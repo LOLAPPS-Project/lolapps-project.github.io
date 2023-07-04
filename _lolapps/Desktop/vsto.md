@@ -25,6 +25,5 @@ Resources:
   - Link: https://github.com/deepinstinct/VSTO-POC
 Acknowledgement:
   - Person: Abhijeet Kumar
-    Handle: '@0xSapereAude'
     Handle: '@SirH4ck3r'
 ---
