@@ -5,7 +5,7 @@ Author: 'Adam Brass and Martin Sohn Christensen'
 Created: 2023-01-29
 Usage:
   - Steps: Override/Create a workspace/settings.json config. Add a new terminal profile with the payload in the "path" and "args" parameters. Set the new terminal profile as default.
-    Description: Steps to create a VS Code terminal persitence profile
+    Description: Steps to create a VS Code terminal persistence profile
     Usecase: Establishing persistence on a Windows host
     Category: Persistence
     Privileges: User
