@@ -4,15 +4,15 @@ Description: VSTO is functionality available in Visual Studio, which allows the 
 Author: 'Abhijeet Kumar'
 Created: 2023-02-10
 Usage:
-  - Steps: Create a VTSO document (Word, Powerpoint, etc) embedded with a DLL file written in .NET and send it to any user. Once the user opens the documents and approves the "Add-In" installation, code will be executed.
-    Description: Steps to exploitation using VTSO
+  - Steps: Create a VSTO document (Word, Powerpoint, etc) embedded with a DLL file written in .NET and send it to any user. Once the user opens the documents and approves the "Add-In" installation, code will be executed.
+    Description: Steps to exploitation using VSTO
     Usecase: Initial Access to the system
     Category: Phishing
     Privileges: User interaction/User
     Limitations: A user with valid privileges to approve Add-in installation.
     MitreID: T1204.002
   - Steps: Utilize a different VSTO payload "Add-In" and include the code for any of the persistence techniques. After successful installation, persistence will be achieved. For more information, see "VSTO-POC" in references.
-    Description: Setting up persistence using VTSO
+    Description: Setting up persistence using VSTO
     Usecase: Persistence
     Category: Persistence
     Privileges: User interaction/User
@@ -26,4 +26,5 @@ Resources:
 Acknowledgement:
   - Person: Abhijeet Kumar
     Handle: '@0xSapereAude'
+    Handle: '@SirH4ck3r'
 ---
