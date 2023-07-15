@@ -3,16 +3,16 @@ NOTE: "Please use the rendered version of this file"
 ---
 {% assign techniques = '' %}
 {% for file in site.lolapps %}
-    {% for command in file.Commands %}
+    {% for command in file.Usage %}
         {% assign techniques = techniques | append:command.MitreID | append:"|" %}
     {% endfor %}
 {% endfor %}
 {% assign occurences = techniques | split:'|' | group_by_exp:"item","item" | sort:"items" %}
 {
     "name": "LOLAPPS",
-    "versions": {"attack": "11", "navigator": "4.6.4", "layer": "4.3"},
+    "versions": {"attack": "13", "navigator": "4.6.4", "layer": "4.4"},
     "domain": "enterprise-attack",
-    "description": "ATT&CK alignment of LOLAPPS, see https://lolbapps-project.github.io/.",
+    "description": "ATT&CK alignment of LOLAPPS, see https://lolapps-project.github.io/.",
     "filters": {"platforms": ["Windows"]},
     "layout": {
         "layout": "flat",
@@ -30,7 +30,7 @@ NOTE: "Please use the rendered version of this file"
         {% endfor %}
     ],
     "gradient": {
-        "colors": ["#cdf0fc", "#0d89b3"],
+        "colors": ["#ffc2c2", "#ff0000"],
         "minValue": 0,
         "maxValue": {{max_score}}
     }
