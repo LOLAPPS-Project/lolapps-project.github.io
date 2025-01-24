@@ -18,12 +18,12 @@ Usage:
     Privileges: None
     Limitations: Must rely on additional tooling
     MitreID: T1041
-  - Steps: Attach ProcMon and start the Discord application. Filter for the values "ProcessName Contains Discord", "Result contains NOT FOUND" and "path ends with .dll" to check for viable abuse candidates. Generate a malicious DLL, and use a tool like Invoke-DLLClone to copy the export address table from your target dll, to your malicious one. Place the newly created DLL into the appropriate application folder, and start discord.
+  - Steps: Attach ProcMon and start the Discord application. Generate a malicious dbghelp.dll, and use a tool like Invoke-DLLClone to copy the export address table from your target dll, to your malicious one. Place the newly created DLL into the "C:\%LOCALAPPDATA%\Discord\app-*" folder, where "*" is the correct version.
     Description: Steps to sideload a malicious dll
     Usecase: Sideloading a Malicious DLL
     Category: DLL Hijacking
     Privileges: User interaction/User
-    Limitations: You must start discord, Potential guesswork on which native DLLs are "missing".
+    Limitations: Must either have access to a user with Discord installed, or social engineer a user into downloading the DLL in the appropriate spot.
     MitreID: T1574.002
 Resources:
   - Link: https://usa.kaspersky.com/blog/malware-in-discord/25662/
