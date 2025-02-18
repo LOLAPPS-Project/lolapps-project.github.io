@@ -38,3 +38,8 @@ dll hijacking:
   label: DLL Hijacking
   description: |
     The LOLAPP can be used for alternative execution. 
+
+proxy:
+  label: Proxy
+  description: |
+    The LOLAPP can be used as a proxy.
